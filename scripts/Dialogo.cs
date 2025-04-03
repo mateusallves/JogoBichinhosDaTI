@@ -7,13 +7,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private int index;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         textComponent.text = string.Empty;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
